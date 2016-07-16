@@ -1,13 +1,13 @@
-# API key; Can be found on your server settings page (minecraftpocket-servers.com)
-APIKey: ""
+# API key; Se puede encontrar en la página de configuración del servidor (minecraftpocket-servers.com)
+APIKey: "Keya5f0htubb2pygm0teyyxer7h409zx2tbxk"
 
-# URL where players can vote for this server;
-VoteURL: ""
+#URL donde los jugadores pueden votar por este servidor;
+VoteURL: "goo.gl/Dj0Pq9"
 
-# list of ranks that can be reached. cutomize this with your server ranks
-# ranks must have the same name like the group in pureperms
-# add all groups that exists, and add the order by giving them a value from 1 to X
-# where 1 is the lowest rank and X the highest
+# Lista de rangos que se pueden alcanzar. Personaliza esto con los rangos de tu servidor
+# Los rangos deben tener el mismo nombre que los grupos de PurePerms
+# Añade todos los grupos que existen, y añade el orden, dándoles un valor de 1 a X
+# donde 1 es el rango más bajo y X es el mayor
 Ranks:
     Guest: 1
     rank2: 2
@@ -26,8 +26,8 @@ JobRanks:
     job2: 5
     job3: 5
 
-# the fallbackrank if a player stop the job, for cases where players
-# reached a rank by voting but dint reached the required time in autoranks
+# El rango alternativo en caso de que un jugador detenga el trabajo, en los casos donde los jugadores
+# han alcanzado un rango por medio del voto, pero no alcanzó el tiempo requerido en autoranks
 JobStopFallback:
     id: 5
     title: "rank5"
@@ -37,7 +37,7 @@ VoteRanks:
     rank2: 2
     rank3: 3
 
-# time to reach this rank, ranks must have the same name like in pureperms
+# Tiempo jugando para llegar a este rango, los rangos deben tener el mismo nombre como en PurePerms
 AutoRanks:
     Guest: true
     rank1: 20
@@ -46,28 +46,28 @@ AutoRanks:
     rank4: 240
     rank5: 720
 
-#messages
+#Mensajes
 Messages:
-    command-in-game: "Command must be used in-game."
-    error-fetching-vote: "[RankUp] Error fetching vote status! Try again later."
-    no-permission: "You do not have permission to vote."
-    pureperms-loaded: "Successfully loaded with PurePerms"
-    pureperms-notfound: "Dependency PurePerms not found"
-    rank-new: "You are now rank ##rank##"
-    rank-failed: "RankUp failed with rank: ##rank##"
-    vote-nextday: "You've already voted today! Come back tomorrow to vote again."
-    vote-success: "##player## voted with /vote and got a higher rank!"
-    vote-open: "You haven't voted yet!\n +++ ##voteurl## +++ \nVote to get higher rank!"
-    timer-usage: "Use /tr check ##player##"
-    timer-neverplayed: "Player ##player## never played on this server"
-    timer-newplayer: "##player## has played less than 1 minute on this server"
-    timer-newrank: "##player## reached new Rank: ##rank##"
-    timer-rankis: "Rank is: ##rank##"
-    timer-timeplayed: "You have played ##timeplayed## minutes on this server.\n ##timetoplay## minutes until next rankup"
-    timer-timeplayer: "Has played ##timeplayed## minutes on this server"
-    job-list: "You can choose one of this jobs: ##joblist##"
-    job-choose: "Please choose one of the jobs: ##joblist##"
-    job-rank-low: "You can't choose this job, your rank is to low"
-    job-rank-error: "Upps there is an ERROR, try again later"
-    job-usage: "list jobs: /job list\nchoose job: /job start <jobname>"
-    job-no-stop: "You do not have a job to stop, use /job start <jobname> to start a job"
+    command-in-game: "Comando debe utilizarse en el juego."
+    error-fetching-vote: "[RankUp] Error al obtener el estado de voto! Inténtalo luego."
+    no-permission: "No tienes permiso para votar."
+    pureperms-loaded: "PurePerms cargado con éxito"
+    pureperms-notfound: "No se encontraron las dependencias de PurePerms"
+    rank-new: "Ahora eres rango ##rank##"
+    rank-failed: "RankUp falló con el rango: ##rank##"
+    vote-nextday: "Ya has votado hoy! Vuelve mañana a votar de nuevo."
+    vote-success: "##player## votó con /vote y tiene un rango más alto!"
+    vote-open: "Usted no ha votado todavía!\n +++ ##voteurl## +++ \nVotar para obtener un rango más alto!"
+    timer-usage: "Usa /tr check ##player##"
+    timer-neverplayed: "El jugador ##player## nunca jugó en este servidor"
+    timer-newplayer: "##player## ha jugado menos de 1 minuto en este servidor"
+    timer-newrank: "##player## ha alcanzado un nuevo rango: ##rank##"
+    timer-rankis: "Rango es: ##rank##"
+    timer-timeplayed: "Tu has jugado ##timeplayed## minutos en este servidor.\n ##timetoplay## minutos para el siguiente rango"
+    timer-timeplayer: "Has jugado ##timeplayed## minutos en éste servidor"
+    job-list: "Puedes elegir uno de esos puestos de trabajo: ##joblist##"
+    job-choose: "Por favor seleccione uno de los puestos de trabajo:: ##joblist##"
+    job-rank-low: "No puedes elegir este trabajo, tu rango es demasiado bajo"
+    job-rank-error: "Vaya que hay un error, inténtelo de nuevo más tarde"
+    job-usage: "Puestos de trabajo: /job list\Escoge un trabajo: /job start <Nombre del trabajo>"
+    job-no-stop: "No tienes un trabajo para detener, utiliza /job start <Nombre del trabajo> para iniciar un trabajo"
